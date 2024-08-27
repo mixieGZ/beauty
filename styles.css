@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background:pink ;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+.chamada {
+    border-bottom: solid 1px rgb(250, 233, 233);
+    padding: 10px;
+    font-size: 30px;
+    color:white;
+    font-family: "Nunito", sans-serif;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0,5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(251, 222, 252);
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
